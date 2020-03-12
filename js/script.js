@@ -1,5 +1,6 @@
 ﻿import "./byeie"; // loučíme se s IE
 import {posilujiData} from "./posiluji.js";
+import {vixData} from "./vix.js";
 
 Highcharts.setOptions({
   lang: {
@@ -31,19 +32,6 @@ Highcharts.stockChart('posiluji', {
   },
   rangeSelector: {
     enabled: false,
-    selected: 0,
-    buttons: [{
-      type: 'week',
-      count: 1,
-      text: 'týden'
-    }, {
-      type: 'month',
-      count: 1,
-      text: 'měsíc'
-    }, {
-      type: 'all',
-      text: 'vše'
-    }]
   },
   
   yAxis: {
@@ -78,6 +66,54 @@ Highcharts.stockChart('posiluji', {
   series: posilujiData
 });
 
+
+Highcharts.stockChart('vix', {
+  credits: {
+    text: 'Zdroj dat: Alpha Vantage',
+    href: 'https://www.alphavantage.co/'
+  },
+
+  navigator: {
+    enabled: false
+  },
+  scrollbar: {
+    enabled: false
+  },
+  rangeSelector: {
+    enabled: false,
+  },
+  
+  yAxis: {
+    labels: {
+      formatter: function () {
+        return (this.value > 0 ? ' + ' : '') + this.value + ' %';
+      }
+    },
+    plotLines: [{
+      value: 0,
+      width: 2,
+      color: 'silver'
+    }]
+  },
+  
+  plotOptions: {
+    series: {
+      compare: 'percent',
+      showInNavigator: true
+    }
+  },
+  
+  tooltip: {
+    pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.change} %)<br/>',
+    valueDecimals: 2,
+    split: true,
+    dateTimeLabelFormats: {
+      day: '%A, %e. %B %Y'
+    }
+  },
+  
+  series: vixData
+});
 
 
 // As we're loading the data asynchronously, we don't know what order it
