@@ -13,6 +13,9 @@ options: [] #wide, noheader (, nopic)
 <div id="posiluji" style="height: 400px; min-width: 310px"></div>
 </wide>
 
+Není jich mnoho, ale některé akcie byly až dosud vůči obavám z koronaviru imunní: výrobci konzervovaných potravin, dezinfekcí, poskytovatelé online zábavy a některé maloobchodní společnosti. Například akcie Campbell Soup Company, výrobce slavné polévky v plechovci a dalších trvanlivých potravin, zažívá nejlepší období za dvě desetiletí. Posiluje také Netflix, který nabízí filmy a seriály na internetu, výrobce dezinfekčních ubrousků Clorox, nebo provozovatel největší americké sítě supermarketů Kroger. „Všechno se sebou souvisí a vše souvisí s koronavirem. Akcie reflektují paniku v supermarketech, kde lidé zkupují vše, co se dá,“ [řekl ve Financial Times](https://www.ft.com/content/842ea58c-5f34-11ea-8033-fa40a0d65a98) analytik Jim Paulsen.
+
+
 ## Zlato
 ## Predikce HPD (OECD?)
 ## Něco dalšího?
