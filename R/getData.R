@@ -27,5 +27,5 @@ for (i in 1:nrow(firmy)) {
   Sys.sleep(10)
 }
 
-write(toJSON(export), "stoupaji.json")
+write(toJSON(export), "posiluji.json")
 
