@@ -1,5 +1,5 @@
 title: "Černý čtvrtek: Koronavirus srazil burzy po celém světě"
-perex: "Akcie zažily kvůli obavám z následků epidemie jeden z největších pádů v historii. Centrální banky zasahují, ale investory zatím nepřesvědčily, že to bude stačit. "
+perex: "Akcie zažily kvůli obavám z následků epidemie jeden z největších pádů v historii. Centrální banky zasahují, ale investory zatím nepřesvědčily, že to bude stačit."
 coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/trhy_200311-101702_pek.jpg?itok=AgegRLKd
 coverimg_note: "Panika na světových trzích | Foto Reuters"
 styles: []
@@ -70,7 +70,7 @@ Například akcie Campbell Soup Company, výrobce slavné polévky v plechovce a
 
 „Všechno se sebou souvisí a vše souvisí s koronavirem. Akcie reflektují paniku v supermarketech, kde lidé zkupují vše, co se dá,“ [řekl ve Financial Times](https://www.ft.com/content/842ea58c-5f34-11ea-8033-fa40a0d65a98) analytik Jim Paulsen.
 
-## Roste zlato a „index paniky“
+## Roste „index paniky“
 
 Index volatility VIX, známý také jako „měřič strachu“ nebo „index paniky“ se dostal na nejvyšší úroveň od srpna 2015. Opce v něm zahrnuté odrážejí očekávané kolísání trhů v příštích třiceti dnech.
 
@@ -79,11 +79,11 @@ Index volatility VIX, známý také jako „měřič strachu“ nebo „index pa
 </wide>
 <br>
 
-Investoři se také přiklánějí ke zlatu, které je bráno jako „bezpečný přístav“ v dobách nejistoty. „Zlato je částí investorů stále považováno za aktivum, které je imunní vůči krizím a zachovává si hodnotu, i když se svět řítí do zkázy. A opravdu, v dobách větších turbulencí (války, finanční krize, ropné šoky) cena zlata zpravidla roste. Investoři v takových případech přesouvají peníze především do bezpečných dluhopisů, ale a v určité míře i do zlata,“ uvedl pro iROZHLAS ekonom společnosti Partners Martin Mašát.
+V dobách nejistoty se investoři přiklánějí ke zlatu, které je bráno jako „bezpečný přístav“. „Zlato je částí investorů stále považováno za aktivum, které je imunní vůči krizím a zachovává si hodnotu, i když se svět řítí do zkázy,“ uvedl pro iROZHLAS.cz ekonom společnosti Partners Martin Mašát.
 
 <wide>
 <div id="zlato" style="height: 400px; min-width: 310px"></div>
 </wide>
 <br>
 
-Ceny zlata na začátku druhého březnového týdne vystoupaly na sedmileté maximum. „Cena zlata se v současnost dostala na úrovně krizových let 2011 a 2012 a jeho další růst je podmíněn pokračujícím šířením pandemie koronaviru. Vzhledem k rostoucímu množství nakažených je pravděpodobné, že cena zlata ještě poroste. Na druhou stranu, v případě ukončení nákazy cena velice rychle opět klesne. Musíme si uvědomit, že zlato je aktivum, které dlouhodobě nic nevydělává a je ve své podstatě jen jakousi formou pojištění proti právě nečekaným, a navíc systémovým světovým krizím.“
+A ceny zlata skutečně na začátku druhého březnového týdne vystoupaly na sedmileté maximum. V jeho druhé části se však invetoři začali zbavovat i zlata a jeho cena poklesla.
