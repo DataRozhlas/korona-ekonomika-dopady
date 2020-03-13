@@ -86,4 +86,4 @@ V dobách nejistoty se investoři přiklánějí ke zlatu, které je bráno jako
 </wide>
 <br>
 
-A ceny zlata skutečně na začátku druhého březnového týdne vystoupaly na sedmileté maximum. V jeho druhé části se však invetoři začali zbavovat i zlata a jeho cena poklesla.
+A ceny zlata skutečně na začátku druhého březnového týdne vystoupaly na sedmileté maximum. V jeho druhé části se však investoři začali zbavovat i zlata a jeho cena poklesla.
