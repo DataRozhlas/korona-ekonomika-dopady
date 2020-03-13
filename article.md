@@ -1,20 +1,19 @@
-title: "Akcie zažily kvůli obavám z epidemie jeden z nejprudších propadů v historii"
-perex: "perex"
+title: "Černý čtvrtek: Koronavirus srazil burzy po celém světě"
+perex: "Akcie zažily kvůli obavám z následků epidemie jeden z největších pádů v historii. Centrální banky zasahují, ale investory zatím nepřesvědčily, že to bude stačit. "
 coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/trhy_200311-101702_pek.jpg?itok=AgegRLKd
-coverimg_note: "Obavy z ekonomických dopadů epidemie vyvolaly na akciových trzích paniku, jakou víc než deset let nezažily. | Foto Reuters"
+coverimg_note: "Panika na světových trzích | Foto Reuters"
 styles: []
 libraries: [jquery, "https://code.highcharts.com/stock/highstock.js"] #jquery, d3, highcharts, datatables
 options: [] #wide, noheader (, nopic)
 ---
 
-## Evropské burzy hlásí rekordní poklesy
-
-Celoevropský akciový index STOXX 600 se ve čtvrtek propadl o více než 11 procent, to je nejprudší pokles v jeho historii. Balík cenných papírů, ve kterém jsou zastoupeny velké, střední i malé firmy ze 17 evropských zemí, se tak dostal na nejnižší úroveň od svého vzniku na konci 90. let.
+Celoevropský akciový index STOXX 600 se ve čtvrtek snížil o víc než 11 procent, byl to nejprudší pokles v jeho historii. Balík cenných papírů, ve kterém jsou zastoupeny velké, střední i malé firmy ze 17 evropských zemí, se tak dostal na nejnižší úroveň od svého vzniku na konci 90. let.
 
 <wide>
 <div id="stoxx" style="height: 400px; min-width: 310px"></div>
 </wide>
 <br>
+
 Pád urychlilo oznámení Evropské centrální banky, která se zatím na rozdíl od americké Fed či britské Bank of England neodhodlala ke snížení úrokových sazeb. [Oznámila sice balíček jiných opatření](https://www.ecb.europa.eu/press/pr/date/2020/html/ecb.mp200312~8d3aec3ff2.cs.html), ale investoři čekali víc.
 
 Téměř stejnou křivku opsal ve Frankfurtu na Mohanem německý akciový index DAX. Seanci ukončil snížením o 12,24 procenta, což představuje nejhorší denní propad od roku 1989.
@@ -54,33 +53,37 @@ Velký výprodej akcií akceleroval po středečním [projevu prezidenta Donalda
 
 Proslov měl veřejnost a investory uklidnit, účinek byl však právě opačný: „Byl to nejdražší projev všech dob,“ [řekl deníku Financial Times](https://www.ft.com/content/454b7bb2-6405-11ea-a6cd-df28cc3c6a68) finanční analytik Luca Paolini. „Investoři hlasují nohama (ve velkém se zbavují svých akcií - pozn. red), a já se jim vůbec nedivím.“
 
-Letecká společnost United Airlines ztratily čtvrtinu své tržní hodnoty, vlastník British Airways IAG 11 procent, provozovatel výletních lodí Carnival se propadl o třetinu. Ušetřeny nezůstaly ani obří banky: Morgan Stanley, Citigroup a Wells Fargo se snížila tržní kapitalizace o 15 procent.
+Letecká společnost United Airlines ztratily čtvrtinu své tržní hodnoty, vlastník British Airways IAG 11 procent, provozovatel výletních lodí Carnival sletěl o třetinu. Ušetřeny nezůstaly ani obří banky: Morgan Stanley, Citigroup a Wells Fargo se snížila tržní kapitalizace o 15 procent.
 
-Dramatický vývoj nezastavila ani rychlá reakce centrální banky, která přislíbila napumpovat do ekonomiky peníze prostřednictvím krátkodobých půjček.
-
-
-
-
-## Ropa - cenová válka
+Dramatický vývoj nezastavila ani rychlá reakce centrální banky, která přislíbila napumpovat do ekonomiky několik bilionů dolarů prostřednictvím krátkodobých půjček.
 
 ## Akcie, které posílily
+
+Není jich mnoho, ale některé akcie byly až do poloviny týdne vůči obavám z koronaviru imunní: výrobci konzervovaných potravin, dezinfekcí, poskytovatelé online zábavy či některé maloobchodní společnosti.
 
 <wide>
 <div id="posiluji" style="height: 400px; min-width: 310px"></div>
 </wide>
+<br>
 
-Není jich mnoho, ale některé akcie byly až dosud vůči obavám z koronaviru imunní: výrobci konzervovaných potravin, dezinfekcí, poskytovatelé online zábavy a některé maloobchodní společnosti.
+Například akcie Campbell Soup Company, výrobce slavné polévky v plechovce a dalších trvanlivých potravin, zažívá nejlepší období za dvě desetiletí. Posiloval také Netflix, který nabízí filmy a seriály na internetu, výrobce dezinfekčních ubrousků Clorox, nebo provozovatel největší americké sítě supermarketů Kroger. Čtvrteční propad se však nevyhnul ani jim.
 
-Například akcie Campbell Soup Company, výrobce slavné polévky v plechovce a dalších trvanlivých potravin, zažívá nejlepší období za dvě desetiletí. Posiluje také Netflix, který nabízí filmy a seriály na internetu, výrobce dezinfekčních ubrousků Clorox, nebo provozovatel největší americké sítě supermarketů Kroger. „Všechno se sebou souvisí a vše souvisí s koronavirem. Akcie reflektují paniku v supermarketech, kde lidé zkupují vše, co se dá,“ [řekl ve Financial Times](https://www.ft.com/content/842ea58c-5f34-11ea-8033-fa40a0d65a98) analytik Jim Paulsen.
+„Všechno se sebou souvisí a vše souvisí s koronavirem. Akcie reflektují paniku v supermarketech, kde lidé zkupují vše, co se dá,“ [řekl ve Financial Times](https://www.ft.com/content/842ea58c-5f34-11ea-8033-fa40a0d65a98) analytik Jim Paulsen.
 
-# VIX
+## Roste zlato a „index paniky“
+
+Index volatility VIX, známý také jako „měřič strachu“ nebo „index paniky“ se dostal na nejvyšší úroveň od srpna 2015. Opce v něm zahrnuté odrážejí očekávané kolísání trhů v příštích třiceti dnech.
 
 <wide>
 <div id="vix" style="height: 400px; min-width: 310px"></div>
 </wide>
+<br>
 
-## Zlato
+Investoři se také přiklánějí ke zlatu, které je bráno jako „bezpečný přístav“ v dobách nejistoty. „Zlato je částí investorů stále považováno za aktivum, které je imunní vůči krizím a zachovává si hodnotu, i když se svět řítí do zkázy. A opravdu, v dobách větších turbulencí (války, finanční krize, ropné šoky) cena zlata zpravidla roste. Investoři v takových případech přesouvají peníze především do bezpečných dluhopisů, ale a v určité míře i do zlata,“ uvedl pro iROZHLAS ekonom společnosti Partners Martin Mašát.
 
 <wide>
 <div id="zlato" style="height: 400px; min-width: 310px"></div>
 </wide>
+<br>
+
+Ceny zlata na začátku druhého březnového týdne vystoupaly na sedmileté maximum. „Cena zlata se v současnost dostala na úrovně krizových let 2011 a 2012 a jeho další růst je podmíněn pokračujícím šířením pandemie koronaviru. Vzhledem k rostoucímu množství nakažených je pravděpodobné, že cena zlata ještě poroste. Na druhou stranu, v případě ukončení nákazy cena velice rychle opět klesne. Musíme si uvědomit, že zlato je aktivum, které dlouhodobě nic nevydělává a je ve své podstatě jen jakousi formou pojištění proti právě nečekaným, a navíc systémovým světovým krizím.“

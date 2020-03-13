@@ -31,6 +31,91 @@ for (i in 1:nrow(firmy)) {
 
 write(paste0("export let stoxxData = ", toJSON(export), ";"), "../js/stoxx.js")
 
+### FTSE
+
+firmy <- data.frame(ticker=c("^FTSE"), nazev=c("FTSE"))
+
+export <- vector("list", nrow(firmy))
+result <- vector("list", 2) 
+
+for (i in 1:nrow(firmy)) {
+  data <- av_get(symbol = as.character(firmy[i,1]), av_fun = "TIME_SERIES_DAILY_ADJUSTED", outputsize = "full")
+  name <- firmy[i,2]
+  result[[1]] <- name
+  y <- data$adjusted_close
+  x <- as.numeric((as_date(data$timestamp))) * 86400000
+  y <- y[(length(x)-sum(as_date(data$timestamp) > as_date("2019-01-01"))):length(x)]
+  x <- x[(length(x)-sum(as_date(data$timestamp) > as_date("2019-01-01"))):length(x)]
+  dvojice <- vector("list",length(y))
+  for (j in 1:length(y)) {
+    dvojice[[j]] <- c(x[j], y[j])
+  }
+  result[[2]] <- dvojice
+  names(result) <- c("name", "data")
+  export[[i]] <- result
+  print(i)
+  #Sys.sleep(10)
+}
+
+write(paste0("export let ftseData = ", toJSON(export), ";"), "../js/ftse.js")
+
+
+### Praha
+
+firmy <- data.frame(ticker=c("CEZ.PR"), nazev=c("ČEZ"))
+
+export <- vector("list", nrow(firmy))
+result <- vector("list", 2) 
+
+for (i in 1:nrow(firmy)) {
+  data <- av_get(symbol = as.character(firmy[i,1]), av_fun = "TIME_SERIES_DAILY_ADJUSTED", outputsize = "full")
+  name <- firmy[i,2]
+  result[[1]] <- name
+  y <- data$adjusted_close
+  x <- as.numeric((as_date(data$timestamp))) * 86400000
+  y <- y[(length(x)-sum(as_date(data$timestamp) > as_date("2019-01-01"))):length(x)]
+  x <- x[(length(x)-sum(as_date(data$timestamp) > as_date("2019-01-01"))):length(x)]
+  dvojice <- vector("list",length(y))
+  for (j in 1:length(y)) {
+    dvojice[[j]] <- c(x[j], y[j])
+  }
+  result[[2]] <- dvojice
+  names(result) <- c("name", "data")
+  export[[i]] <- result
+  print(i)
+  #Sys.sleep(10)
+}
+
+write(paste0("export let cezData = ", toJSON(export), ";"), "../js/cez.js")
+
+### S&P500
+
+firmy <- data.frame(ticker=c("^GSPC"), nazev=c("S&P 500"))
+
+export <- vector("list", nrow(firmy))
+result <- vector("list", 2) 
+
+for (i in 1:nrow(firmy)) {
+  data <- av_get(symbol = as.character(firmy[i,1]), av_fun = "TIME_SERIES_DAILY_ADJUSTED", outputsize = "full")
+  name <- firmy[i,2]
+  result[[1]] <- name
+  y <- data$adjusted_close
+  x <- as.numeric((as_date(data$timestamp))) * 86400000
+  y <- y[(length(x)-sum(as_date(data$timestamp) > as_date("2019-01-01"))):length(x)]
+  x <- x[(length(x)-sum(as_date(data$timestamp) > as_date("2019-01-01"))):length(x)]
+  dvojice <- vector("list",length(y))
+  for (j in 1:length(y)) {
+    dvojice[[j]] <- c(x[j], y[j])
+  }
+  result[[2]] <- dvojice
+  names(result) <- c("name", "data")
+  export[[i]] <- result
+  print(i)
+  #Sys.sleep(10)
+}
+
+write(paste0("export let spData = ", toJSON(export), ";"), "../js/sp.js")
+
 
 
 
@@ -60,7 +145,7 @@ for (i in 1:nrow(firmy)) {
   #Sys.sleep(10)
 }
 
-write(toJSON(export), "posiluji.json")
+write(paste0("export let posilujiData = ", toJSON(export), ";"), "../js/posiluji.js")
 
 ### index paniky
 
@@ -70,13 +155,13 @@ export <- vector("list", nrow(firmy))
 result <- vector("list", 2) 
 
 for (i in 1:nrow(firmy)) {
-  data <- av_get(symbol = as.character(firmy[i,1]), av_fun = "TIME_SERIES_DAILY_ADJUSTED", outputsize = "compact")
+  data <- av_get(symbol = as.character(firmy[i,1]), av_fun = "TIME_SERIES_DAILY_ADJUSTED", outputsize = "full")
   name <- firmy[i,2]
   result[[1]] <- name
   y <- data$adjusted_close
   x <- as.numeric((as_date(data$timestamp))) * 86400000
-  y <- y[(length(x)-sum(as_date(data$timestamp) > as_date("2020-01-02"))):length(x)]
-  x <- x[(length(x)-sum(as_date(data$timestamp) > as_date("2020-01-02"))):length(x)]
+  y <- y[(length(x)-sum(as_date(data$timestamp) > as_date("2019-01-01"))):length(x)]
+  x <- x[(length(x)-sum(as_date(data$timestamp) > as_date("2019-01-01"))):length(x)]
   dvojice <- vector("list",length(y))
   for (j in 1:length(y)) {
     dvojice[[j]] <- c(x[j], y[j])
@@ -88,7 +173,8 @@ for (i in 1:nrow(firmy)) {
   #Sys.sleep(10)
 }
 
-write(toJSON(export), "vix.json")
+
+write(paste0("export let vixData = ", toJSON(export), ";"), "../js/vix.js")
 
 ### zlato
 
